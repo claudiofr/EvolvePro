@@ -1,0 +1,1 @@
+python evolvepro/plm/esm/extract.py esm2_t6_8M_UR50D output/dms/brenan1.fasta output/plm/esm/brenan1 --toks_per_batch 512 --include mean --concatenate_dir output/plm/esm/

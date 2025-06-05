@@ -11,7 +11,8 @@ import pathlib
 import pandas as pd
 import torch
 
-from esm import Alphabet, FastaBatchedDataset, ProteinBertModel, pretrained, MSATransformer
+# from esm import Alphabet, FastaBatchedDataset, ProteinBertModel, pretrained, MSATransformer
+from esm import FastaBatchedDataset, pretrained, MSATransformer
 
 
 def create_parser():
